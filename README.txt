@@ -13,7 +13,7 @@ This project is designed to support aircraft maintenance operations by tracking 
 ## 📸 Screenshots
 
 ### Maintenance Dashboard
-![Dashboard](images/maintenance-dashboard.png)
+!(images/maintenance-dashboard.png)
 
 ### Maintenance Tracking
 ![Tracker](images/maintenance-tracker.png)
