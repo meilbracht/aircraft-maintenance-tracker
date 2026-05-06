@@ -10,6 +10,19 @@ This project is designed to support aircraft maintenance operations by tracking 
 
 ---
 
+## 📸 Screenshots
+
+### Maintenance Dashboard
+![Dashboard](images/maintenance-dashboard.png)
+
+### Maintenance Tracking
+![Tracker](images/maintenance-tracker.png)
+
+### Maintenance Reports
+![Reports](images/maintenance-reports.png)
+
+---
+
 ## 🚀 Features
 
 - Aircraft discrepancy tracking  
