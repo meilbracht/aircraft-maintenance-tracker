@@ -1,0 +1,6 @@
+date,shift,A/C,location,discrepancy,maintenance action,JCN / Document Number,Log Entered By,Shift Lead,Technicians
+2026-04-01,Day,A6125,A25,Fuel Leak,Tightened Coupling,261280053,M. Eilbracht,J. Taylor,M. Adams
+2026-04-01,Night,A5061,B04,Hydro Eval,NDN,252056987,J. Smith,L. Lewis,L. Clark
+2026-04-01,Day,A6136,4315,Pump Change,"Pump change, ops check due",261032258,L. Pierce,J. Taylor,L. Hall
+2026-04-01,Night,A5088,5105,Housing R2,INW,241023369,M. Eilbracht,L. Lewis,O. Moore
+2026-04-01,Day,A6098,A05,A/R Ops Check,NDN,,L. Pierce,J. Taylor,M. Smith
