@@ -1,113 +1,100 @@
-Aircraft Maintenance Capstone Project
-USAF Inventory & Maintenance Tracking System
+# ✈️ Aircraft Maintenance Tracker
+
+A desktop-based aircraft maintenance tracking and operational readiness system built with Python, FastAPI, and PySide6.
 
 ---
 
-PROJECT OVERVIEW
+## 📌 Overview
 
-This project is a prototype Aircraft Maintenance Tracking System designed to simulate a real-world military logistics environment. The system allows users to import maintenance logs from Excel, view and manage data in a desktop interface, and export reports in CSV and PDF formats.
-
-The purpose of this system is to demonstrate the development of an information system that improves visibility, organization, and reporting of aircraft maintenance activities.
+This project is designed to support aircraft maintenance operations by tracking discrepancies, maintenance actions, technician assignments, and operational status in real time. The system provides a desktop interface for maintenance workflow management along with reporting and analytics capabilities.
 
 ---
 
-SYSTEM REQUIREMENTS
+## 🚀 Features
 
-Before running the application, ensure the following are installed:
-
-* Python 3.10 or newer
-* pip (Python package manager)
-* Windows OS (recommended)
+- Aircraft discrepancy tracking  
+- Maintenance log management  
+- Technician assignment and workflow tracking  
+- Search and filtering functionality  
+- Real-time maintenance status updates  
+- CSV and PDF report generation  
+- Role-based access control  
+- Excel-based maintenance data import  
 
 ---
 
-PROJECT SETUP INSTRUCTIONS
+## 🧰 Technologies Used
 
-1. Extract the ZIP file
+- Python  
+- FastAPI  
+- PySide6 (Qt for Python)  
+- SQLAlchemy  
+- pandas  
+- ReportLab  
 
-* Right-click the ZIP folder
-* Select "Extract All"
-* Open the extracted folder
+---
 
-2. Open PowerShell in the project folder
+## 📊 Key Highlights
 
-* Navigate to the "aircraft_maintenance_capstone" folder
-* Right-click inside the folder
-* Select "Open in Terminal" or "Open PowerShell here"
+- Built RESTful APIs for maintenance data and workflow management  
+- Designed a desktop interface for maintenance operations and tracking  
+- Implemented maintenance reporting and discrepancy logging  
+- Processed structured maintenance datasets using pandas  
+- Developed role-based functionality for operational workflows  
 
-3. Create a virtual environment
+---
 
-Run the following command:
+## ⚡ Quick Start
 
+### Backend
+
+```bash
+cd backend
 python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
 
-4. Activate the virtual environment
+### Desktop Application
 
-Run:
-
-..venv\Scripts\activate
-
-If you receive a script error, run:
-
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-Then activate again.
-
-5. Install required packages
-
-Run:
-
-pip install PySide6 pandas openpyxl reportlab
-
----
-
-RUNNING THE APPLICATION
-
-1. Navigate to the desktop folder:
-
+```bash
 cd desktop
-
-2. Run the application:
-
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
 python app.py
-
-3. The application window should open.
-
----
-
-USING THE APPLICATION
-
-1. Click "Import Maintenance Logs"
-2. Select the sample Excel file located in:
-
-data\maintenance_logs.xlsx
-
-3. The table will populate with maintenance data.
-
-4. Use the following features:
-
-* View maintenance logs in table format
-* Export CSV report
-* Export PDF report
-
-Exported files will be saved in the "exports" folder.
+```
 
 ---
 
+## 📁 Project Structure
 
-NOTES
-
-* This is a prototype system developed and is still a work in progress.
-* Some features may be simplified but demonstrate core functionality.
-* If the application does not run, ensure all dependencies are installed correctly.
+```text
+backend/     → FastAPI backend services
+desktop/     → PySide6 desktop application
+data/        → Demo maintenance datasets
+```
 
 ---
 
-AUTHOR
+## ⚠️ Demo Data Notice
+
+This project uses synthetic demo data for demonstration purposes only.  
+No real or sensitive operational data is included in this repository.
+
+---
+
+## 🔮 Future Improvements
+
+- Cloud deployment support  
+- Real-time dashboard analytics  
+- Multi-aircraft fleet support  
+- Authentication with JWT  
+- Web-based maintenance portal  
+
+---
+
+## 👤 Author
 
 Michael Eilbracht
-Liberty University
-CSIS 484 Capstone Project
-Dr. Eric Straw
-
----
